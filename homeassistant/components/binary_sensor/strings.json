@@ -163,6 +163,13 @@
         "on": "[%key:common::state::open%]"
       }
     },
+    "door_inverted": {
+      "name": "Door",
+      "state": {
+        "off": "[%key:common::state::open%]",
+        "on": "[%key:common::state::closed%]"
+      }
+    },
     "garage_door": {
       "name": "Garage door",
       "state": {

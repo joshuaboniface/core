@@ -42,6 +42,12 @@
         "on": "mdi:door-open"
       }
     },
+    "door_inverted": {
+      "default": "mdi:door-open",
+      "state": {
+        "on": "mdi:door-closed"
+      }
+    },
     "garage_door": {
       "default": "mdi:garage",
       "state": {

@@ -161,6 +161,10 @@ ENTITY_CONDITIONS = {
         {CONF_TYPE: CONF_IS_OPEN},
         {CONF_TYPE: CONF_IS_NOT_OPEN},
     ],
+    BinarySensorDeviceClass.DOOR_INVERTED: [
+        {CONF_TYPE: CONF_IS_NOT_OPEN},
+        {CONF_TYPE: CONF_IS_OPEN},
+    ],
     BinarySensorDeviceClass.GARAGE_DOOR: [
         {CONF_TYPE: CONF_IS_OPEN},
         {CONF_TYPE: CONF_IS_NOT_OPEN},

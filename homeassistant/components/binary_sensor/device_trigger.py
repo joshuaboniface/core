@@ -96,6 +96,10 @@ ENTITY_TRIGGERS = {
         {CONF_TYPE: CONF_OPENED},
         {CONF_TYPE: CONF_NOT_OPENED},
     ],
+    BinarySensorDeviceClass.DOOR_INVERTED: [
+        {CONF_TYPE: CONF_NOT_OPENED},
+        {CONF_TYPE: CONF_OPENED},
+    ],
     BinarySensorDeviceClass.GARAGE_DOOR: [
         {CONF_TYPE: CONF_OPENED},
         {CONF_TYPE: CONF_NOT_OPENED},
