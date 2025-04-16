@@ -69,6 +69,8 @@ CONF_VIBRATION = "vibration"
 CONF_NO_VIBRATION = "no_vibration"
 CONF_OPENED = "opened"
 CONF_NOT_OPENED = "not_opened"
+CONF_YES = "yes"
+CONF_NO = "no"
 
 
 ENTITY_TRIGGERS = {
@@ -187,6 +189,10 @@ ENTITY_TRIGGERS = {
     BinarySensorDeviceClass.WINDOW: [
         {CONF_TYPE: CONF_OPENED},
         {CONF_TYPE: CONF_NOT_OPENED},
+    ],
+    BinarySensorDeviceClass.YESNO: [
+        {CONF_TYPE: CONF_YES},
+        {CONF_TYPE: CONF_NO},
     ],
     DEVICE_CLASS_NONE: [
         {CONF_TYPE: CONF_TURNED_ON},

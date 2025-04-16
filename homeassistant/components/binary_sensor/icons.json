@@ -179,6 +179,12 @@
       "state": {
         "on": "mdi:window-open"
       }
+    },
+    "yesno": {
+      "default": "mdi:circle-outline",
+      "state": {
+        "on": "mdi:circle"
+      }
     }
   }
 }

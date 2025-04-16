@@ -120,6 +120,9 @@ class BinarySensorDeviceClass(StrEnum):
     # On means open, Off means closed
     WINDOW = "window"
 
+    # On mean yes, Off means no
+    YESNO = "yes_no"
+
 
 DEVICE_CLASSES_SCHEMA = vol.All(vol.Lower, vol.Coerce(BinarySensorDeviceClass))
 DEVICE_CLASSES = [cls.value for cls in BinarySensorDeviceClass]

@@ -52,6 +52,8 @@
       "is_no_vibration": "{entity_name} is not detecting vibration",
       "is_open": "{entity_name} is open",
       "is_not_open": "{entity_name} is closed",
+      "is_yes": "{entity_name} is yes",
+      "is_no": "{entity_name} is no",
       "is_on": "[%key:common::device_automation::condition_type::is_on%]",
       "is_off": "[%key:common::device_automation::condition_type::is_off%]"
     },
@@ -109,6 +111,8 @@
       "no_vibration": "{entity_name} stopped detecting vibration",
       "opened": "{entity_name} opened",
       "not_opened": "{entity_name} closed",
+      "yes": "{entity_name} is now yes",
+      "no": "{entity_name} is now no",
       "turned_on": "[%key:common::device_automation::trigger_type::turned_on%]",
       "turned_off": "[%key:common::device_automation::trigger_type::turned_off%]"
     }
@@ -322,6 +326,13 @@
       "state": {
         "off": "[%key:common::state::closed%]",
         "on": "[%key:common::state::open%]"
+      }
+    },
+    "yesno": {
+      "name": "Yes-No",
+      "state": {
+        "off": "No",
+        "on": "Yes"
       }
     }
   }
