@@ -21,6 +21,8 @@ DEVICE_CLASS_NONE = "none"
 
 CONF_BAT_LOW = "bat_low"
 CONF_NOT_BAT_LOW = "not_bat_low"
+CONF_TRUE = "true"
+CONF_FALSE = "false"
 CONF_CHARGING = "charging"
 CONF_NOT_CHARGING = "not_charging"
 CONF_CO = "co"
@@ -81,6 +83,10 @@ ENTITY_TRIGGERS = {
     BinarySensorDeviceClass.BATTERY_CHARGING: [
         {CONF_TYPE: CONF_CHARGING},
         {CONF_TYPE: CONF_NOT_CHARGING},
+    ],
+    BinarySensorDeviceClass.BOOLEAN: [
+        {CONF_TYPE: CONF_TRUE},
+        {CONF_TYPE: CONF_FALSE},
     ],
     BinarySensorDeviceClass.CO: [
         {CONF_TYPE: CONF_CO},

@@ -4,6 +4,8 @@
     "condition_type": {
       "is_bat_low": "{entity_name} battery is low",
       "is_not_bat_low": "{entity_name} battery is normal",
+      "is_true": "{entity_name} is true",
+      "is_false": "{entity_name} is false",
       "is_charging": "{entity_name} is charging",
       "is_not_charging": "{entity_name} is not charging",
       "is_co": "{entity_name} is detecting carbon monoxide",
@@ -63,6 +65,8 @@
     "trigger_type": {
       "bat_low": "{entity_name} battery low",
       "not_bat_low": "{entity_name} battery normal",
+      "true": "{entity_name} is now true",
+      "false": "{entity_name} is now false",
       "charging": "{entity_name} charging",
       "not_charging": "{entity_name} not charging",
       "co": "{entity_name} started detecting carbon monoxide",
@@ -137,6 +141,13 @@
       "state": {
         "off": "Not charging",
         "on": "Charging"
+      }
+    },
+    "boolean": {
+      "name": "Boolean",
+      "state": {
+        "off": "False",
+        "on": "True"
       }
     },
     "carbon_monoxide": {

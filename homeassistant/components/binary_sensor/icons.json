@@ -18,6 +18,12 @@
         "on": "mdi:battery-charging"
       }
     },
+    "boolean": {
+      "default": "mdi:circle-outline",
+      "state": {
+        "on": "mdi:circle"
+      }
+    },
     "carbon_monoxide": {
       "default": "mdi:smoke-detector",
       "state": {

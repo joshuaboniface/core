@@ -39,6 +39,9 @@ class BinarySensorDeviceClass(StrEnum):
     # On means charging, Off means not charging
     BATTERY_CHARGING = "battery_charging"
 
+    # On means true, Off means false
+    BOOLEAN = "boolean"
+
     # On means carbon monoxide detected, Off means no carbon monoxide (clear)
     CO = "carbon_monoxide"
 
